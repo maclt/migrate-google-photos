@@ -1,7 +1,6 @@
 # Migrate Google Photos
-You can download the batch of photos from Google Photo.  
-To save the cost of Google One, let's archive the data in Google Photo. 
-Limitation: This script cannot delete the photos in Google Photos because Google does not provide DELETE API.
+This helps you to download the batch of photos from Google Photo.  
+To save [the cost of Google One](https://one.google.com/about/plans?g1_landing_page=0), let's archive the data in Google Photo.  
 
 ## Prerequisites
 - install NodeJS
@@ -34,6 +33,8 @@ const endDate = { year: 2023, month: 12, day: 31 };
 ``` 
 $ node download.js
 ```
+## Limitation
+You cannot delete the photos in Google Photos because Google does not provide DELETE API.
 
 ## Reference
 https://developers.google.com/photos/library/reference/rest
